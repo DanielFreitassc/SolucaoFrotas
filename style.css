@@ -1,7 +1,11 @@
 
 <style>
+    
     h1{
         font-family: 'Roboto Mono', monospace;
+    }
+    h2{
+        color: rgb(48, 47, 47);
     }
     .titulo_site{
         font-family: 'Roboto Mono', monospace;
@@ -17,5 +21,8 @@
     .segundo_titulo{
         font-family: 'Roboto Mono', monospace;
     }
-
+    ol{
+        font-size: 19px;
+        color: rgb(48, 47, 47);
+    }
 </style>
