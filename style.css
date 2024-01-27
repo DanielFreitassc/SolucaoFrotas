@@ -1,28 +1,43 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
 
-<style>
-    
-    h1{
-        font-family: 'Roboto Mono', monospace;
-    }
-    h2{
-        color: rgb(48, 47, 47);
-    }
-    .titulo_site{
-        font-family: 'Roboto Mono', monospace;
-        text-align: center;
-        font-size: 50px;
-        line-height: 1;
-        margin: 0;
-        color: rgb(48, 47, 47);
-    }
-    body{
-        background-color: gray;
-    }
-    .segundo_titulo{
-        font-family: 'Roboto Mono', monospace;
-    }
-    ol{
-        font-size: 19px;
-        color: rgb(48, 47, 47);
-    }
-</style>
+#container-titulo {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.titulo_site {
+    color: #333;
+    font-size: 36px;
+}
+
+.segundo_titulo {
+    text-align: center;
+    color: #555;
+    font-style: italic;
+}
+
+#lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+}
+
+#lista li {
+    background-color: #fff;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+#lista li:hover {
+    transform: scale(1.05);
+}
+
+/* Add more styles and animations as per your preference */
