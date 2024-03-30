@@ -19,7 +19,7 @@ public record ViagemRecordDTO(
     @NotBlank String organograma,
     @NotBlank String responsavel, 
     @NotBlank String finalidade, 
-    @NotBlank String observacao, 
+    String observacao, 
     @NotBlank String rota,
     @NotNull double saida_km, 
     @NotNull double chegada_km, 
