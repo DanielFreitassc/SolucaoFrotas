@@ -32,6 +32,7 @@ public class ReservaEntity extends RepresentationModel<ReservaEntity> implements
     @EqualsAndHashCode.Include 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id_reserva;
+    private LocalDateTime reservado;
     private LocalDateTime saida;
     private LocalDateTime chegada;
     @OneToOne
