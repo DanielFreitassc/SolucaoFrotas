@@ -26,6 +26,7 @@ public class MotoristaEntity extends RepresentationModel<MotoristaEntity> implem
     private static final Long serialVersionUID = 1L;
 
     @Id
+    @EqualsAndHashCode.Include
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id_motorista;
     private String nome;
