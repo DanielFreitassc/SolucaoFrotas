@@ -35,7 +35,7 @@ public class ReservaService {
         if(!reservaList.isEmpty()) {
             for(ReservaEntity reservaEntity : reservaList) {
                 Long id_reserva = reservaEntity.getId_reserva();
-                reservaEntity.add(linkTo(methodOn(ReservaController.class).getOneReserva()).withSelfRel());
+                reservaEntity.add(linkTo(methodOn(ReservaController.class).getOneReserva(id_reserva)).withSelfRel());
             }
         }
         return ResponseEntity.status(HttpStatus.OK).body(reservaList);
@@ -46,7 +46,7 @@ public class ReservaService {
         if(reservaOne.isEmpty()) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Nenhum reserva com este id");
         }
-        reservaOne.get().add(linkTo(methodOn(ReservaController.class).getOneReserva()).withRel("Lista de reservas"));
+        reservaOne.get().add(linkTo(methodOn(ReservaController.class).getAllReservas()).withRel("Lista de reservas"));
         return ResponseEntity.status(HttpStatus.OK).body(reservaOne);
     }
 
