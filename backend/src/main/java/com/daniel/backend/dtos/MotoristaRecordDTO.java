@@ -1,5 +1,7 @@
 package com.daniel.backend.dtos;
 
-public record MotoristaRecordDTO(String nome, String sobrenome, String cpf, String categoria) {
+import jakarta.validation.constraints.NotBlank;
+
+public record MotoristaRecordDTO(@NotBlank String nome, @NotBlank String sobrenome, @NotBlank String cpf, @NotBlank String categoria) {
     
 }
