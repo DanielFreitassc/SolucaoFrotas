@@ -93,3 +93,46 @@
 ```
 /reserva/1
 ```
+# Cadastar um veiculo 
+```
+/veiculo
+```
+```
+{
+    "placa":"MTX-1224",
+    "modelo":"GOL",
+    "categoria":"B",
+    "ano":"2023",
+    "cor":"azul",
+    "quilometragem":999,
+    "numero_de_chassi":"3323-zzzww32"
+}
+```
+# Buscar todos os veiculos cadastrados
+```
+/veiculo
+```
+# Buscar um veiculo especifico.
+```
+/veiculo/1
+```
+
+#  Atulizar dados de um veiculo 
+```
+/veiculo/1
+```
+```
+{
+    "placa":"MTX-1224",
+    "modelo":"GOL",
+    "categoria":"B",
+    "ano":"2023",
+    "cor":"azul",
+    "quilometragem":999,
+    "numero_de_chassi":"3323-zzzww32"
+}
+```
+# Remover cadastro de um veiculo.
+```
+/veiculo/1
+```
