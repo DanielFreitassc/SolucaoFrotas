@@ -136,3 +136,82 @@
 ```
 /veiculo/1
 ```
+# Cadastar uma multa
+```
+/multa
+```
+```
+{
+    "id_multa": 1,
+    "veiculo": {
+        "id_veiculo": 1
+    },
+    "multado_em": "2024-03-29T10:15:30",
+    "motorista": {
+        "id_motorista": 1
+    },
+    "num_notificacao": "ABC123456",
+    "vencimento": "2024-04-15T00:00:00",
+    "observacao": "Observação da Multa",
+    "local": "Local da Infração",
+    "municipio": "Município da Infração",
+    "bairro": "Bairro da Infração",
+    "logradouro": "Logradouro da Infração",
+    "complemento": "Complemento do Endereço da Infração",
+    "infracao": "Descrição da Infração",
+    "valor": 500.00,
+    "recurso": "2024-03-29T10:15:30",
+    "situacao": "Pendente",
+    "data_pagamento":"2024-03-29T10:15:30",
+    "valor_juros": 2,
+    "valor_desconto": 2,
+    "valor_pago": 2
+}
+```
+# Buscar todas as multas
+```
+/multa
+```
+
+# Buscar uma multa especifica 
+```
+/multa/1
+```
+
+# Atualizar dados de uma multa especifica 
+```
+/multa/1
+```
+```
+{
+    "id_multa": 1,
+    "veiculo": {
+        "id_veiculo": 1
+    },
+    "multado_em": "2024-03-29T10:15:30",
+    "motorista": {
+        "id_motorista": 1
+    },
+    "num_notificacao": "ABC123456",
+    "vencimento": "2024-04-15T00:00:00",
+    "observacao": "Observação da Multa",
+    "local": "Local da Infração",
+    "municipio": "Município da Infração",
+    "bairro": "Bairro da Infração",
+    "logradouro": "Logradouro da Infração",
+    "complemento": "Complemento do Endereço da Infração",
+    "infracao": "Descrição da Infração",
+    "valor": 500.00,
+    "recurso": "2024-03-29T10:15:30",
+    "situacao": "Pendente",
+    "data_pagamento":"2024-03-29T10:15:30",
+    "valor_juros": 2,
+    "valor_desconto": 2,
+    "valor_pago": 2
+}
+```
+# Remover cadastro de uma multa especifica 
+```
+/multa/1
+```
+
