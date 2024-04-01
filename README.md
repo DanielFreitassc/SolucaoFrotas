@@ -58,3 +58,38 @@
 }
 
 ```
+
+# Buscar todas as reservas de veiculos
+```
+/reserva
+```
+# Buscar por uma reseva especifica 
+```
+/reserva/1
+```
+# Atualizar dados da reserva 
+```
+/reserva/1
+```
+```
+{
+    "reservado": "2023-01-01T00:00:00",
+    "saida": "2023-01-01T00:00:00",
+    "chegada": "2023-01-01T00:00:00",
+    "veiculo": {
+        "id_veiculo": 1
+    },
+    "motorista": {
+        "id_motorista": 1
+    },
+    "organograma": "/organograma/organograma",
+    "finalidade": "Finalidade tal tal tal",
+    "observacoes": "observação sobre o veiculo ou algo mais"
+}
+
+```
+
+# Remover uma reserva
+```
+/reserva/1
+```
