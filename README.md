@@ -209,6 +209,7 @@
     "valor_desconto": 2,
     "valor_pago": 2
 }
+
 ```
 # Remover cadastro de uma multa especifica 
 ```
