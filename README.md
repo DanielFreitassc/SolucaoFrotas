@@ -106,6 +106,7 @@
     "cor":"azul",
     "quilometragem":999,
     "numero_de_chassi":"3323-zzzww32"
+
 }
 ```
 # Buscar todos os veiculos cadastrados
