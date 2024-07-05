@@ -211,7 +211,6 @@
     "valor_pago": 2
 }
 
-
 ```
 # Remover cadastro de uma multa especifica 
 ```
