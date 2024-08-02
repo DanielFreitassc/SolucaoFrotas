@@ -1,7 +1,6 @@
 # Solução de Frotas
 ### Em um mundo cada vez mais conectado e dependente de mobilidade, a administração eficiente de frotas de veículos é essencial para empresas de diversos setores. Para simplificar e otimizar esse processo, uma API especializada pode ser uma ferramenta poderosa. Esta API foi desenvolvida com o intuito de oferecer uma solução abrangente para as necessidades de gestão de frotas, fornecendo uma ampla gama de funcionalidades e recursos.
 
-
 # Cadastro de motorista
 ``` 
 /motorista
