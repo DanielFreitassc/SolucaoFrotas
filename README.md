@@ -212,6 +212,7 @@
 
 ```
 
+
 # Remover cadastro de uma multa especifica 
 ```
 /multa/1
