@@ -214,7 +214,7 @@
 
 
 # Remover cadastro de uma multa especifica 
-```
+```yml
 /multa/1
 ```
 
